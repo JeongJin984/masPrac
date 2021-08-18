@@ -14,9 +14,3 @@ spring:
       server:
         git:
           uri: https://github.com/JeongJin984/SIYBackConfiguration.git
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh, health, beans, httptrace, busrefresh

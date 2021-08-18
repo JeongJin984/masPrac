@@ -14,6 +14,6 @@ public class HealthCheckController {
     public String status() {
         return "It's Working in Foo Service" +
                 ", port(server.port)=" + env.getProperty("server.port") +
-                ", token= " + env.getProperty("token.secret");
+                ", token= " + env.getProperty("haha.hehe");
     }
 }

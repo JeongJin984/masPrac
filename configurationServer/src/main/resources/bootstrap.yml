@@ -1,2 +1,8 @@
 encrypt:
   key: ThisI_smY_SeCreT_KeyA1332
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans, httptrace,busrefresh
