@@ -13,6 +13,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JeongJin984/SIYBackConfiguration.git
+          uri: https://github.com/JeongJin984/SIYBackConfiguration
           force-pull: true
           basedir:
