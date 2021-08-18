@@ -12,7 +12,8 @@ public class HealthCheckController {
 
     @GetMapping("/health_check")
     public String status() {
-        return String.format("It's Working in Foo Service" +
-                ", port(server.port)=" + env.getProperty("server.port"));
+        return "It's Working in Foo Service" +
+                ", port(server.port)=" + env.getProperty("server.port") +
+                ", token= " + env.getProperty("token.secret");
     }
 }

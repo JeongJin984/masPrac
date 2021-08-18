@@ -1,4 +1,4 @@
-package com.example.gateway.controller;
+package com.example.fooservice.api;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
@@ -12,8 +12,7 @@ public class HealthCheckController {
 
     @GetMapping("/health_check")
     public String status() {
-        return "It's Working in Gateway Service" +
-                ", port(server.port)=" + env.getProperty("server.port") +
-                "encrypt key=" + env.getProperty("token.secret");
+        return String.format("It's Working in Foo Service" +
+                ", port(server.port)=" + env.getProperty("server.port"));
     }
 }

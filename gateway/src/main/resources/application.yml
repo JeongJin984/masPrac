@@ -7,6 +7,11 @@ spring:
   redis:
     host: localhost
     port: 6379
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     gateway:
       default-filters:
@@ -26,8 +31,16 @@ spring:
             - Method=GET,POST
           filters:
             - RewritePath=/foo/(?<segment>.*), /$\{segment}
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
 management:
   endpoints:
     web:
       exposure:
-        include: refresh, health, beans, httptrace,busrefresh, info, prometheus, metrics
+        include: refresh, health, beans, httptrace, busrefresh, info, prometheus, metrics
