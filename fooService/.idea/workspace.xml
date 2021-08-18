@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee2515db-badc-48a4-bcb6-7e0252ef5ce7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../configurationServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../configurationServer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fooService-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serviceDiscovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceDiscovery/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629279082116</updated>
       <workItem from="1629279087110" duration="470000" />
-      <workItem from="1629279579723" duration="4609000" />
+      <workItem from="1629279579723" duration="5488000" />
     </task>
     <servers />
   </component>
