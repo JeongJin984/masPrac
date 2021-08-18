@@ -6,14 +6,13 @@ spring:
     name: config-server
   rabbitmq:
     host: localhost
-    port: 15672
+    port: 5672
     username: guest
     password: guest
   cloud:
     config:
       server:
-        git:
-          uri: file:///D|/works/spring/msaPrac/configuration
+        git: https://github.com/JeongJin984/msaPractice.git
 
 management:
   endpoints:
