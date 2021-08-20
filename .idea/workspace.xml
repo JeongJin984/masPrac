@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33f9d345-4cea-48f1-b731-6bbcc72aa04f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configurationServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurationServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurationServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configurationServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fooService-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fooService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fooService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fooService/src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fooService/src/main/java/com/example/fooservice/api/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fooservice/FooServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/fooservice/FooServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wtpzTnnrXomP7DTXXPmTWnYiGE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f9d345-4cea-48f1-b731-6bbcc72aa04f" name="Changes" comment="" />
+      <created>1629288003564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629288003564</updated>
+      <workItem from="1629288005055" duration="11000" />
+    </task>
+    <servers />
+  </component>
+</project>
