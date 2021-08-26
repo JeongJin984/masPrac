@@ -5,24 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee2515db-badc-48a4-bcb6-7e0252ef5ce7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/msaPrac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../configurationServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../configurationServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../configurationServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fooService-dev.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/api/GoogleAuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/api/LocalAuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/db/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/db/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/filter/LocalLoginProcessingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/handler/CustomLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/handler/CustomLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/provider/LocalAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/service/CustomUserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/util/AccountContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/util/LocalAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/util/jwt/CreateTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/util/jwt/GetTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/util/jwt/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/example/gateway/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configurationServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/api/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/FooServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/fooservice/FooServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +70,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="FooServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fooService" />
@@ -86,6 +93,13 @@
       <workItem from="1629279087110" duration="470000" />
       <workItem from="1629279579723" duration="8094000" />
       <workItem from="1629287997757" duration="875000" />
+      <workItem from="1629540431252" duration="3498000" />
+      <workItem from="1629638754738" duration="11791000" />
+      <workItem from="1629687631536" duration="18533000" />
+      <workItem from="1629790353542" duration="632000" />
+      <workItem from="1629804726387" duration="140000" />
+      <workItem from="1629804914802" duration="508000" />
+      <workItem from="1629876748448" duration="19682000" />
     </task>
     <servers />
   </component>
@@ -106,5 +120,36 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/fooservice/api/GoogleAuthorizeController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/fooservice/security/handler/CustomLoginFailureHandler.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/fooservice/api/GoogleAuthorizeController.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/fooservice/api/GoogleAuthorizeController.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/fooservice/security/util/jwt/GetTokenInfo.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

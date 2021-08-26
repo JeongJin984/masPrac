@@ -5,37 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63a6bc19-582f-4728-b084-2109017fafff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/msaPrac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../configurationServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../configurationServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../configurationServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fooService-dev.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/GoogleAuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/LocalAuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/db/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/db/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/filter/LocalLoginProcessingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/handler/CustomLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/handler/CustomLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/provider/LocalAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/service/CustomUserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/AccountContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/LocalAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/jwt/CreateTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/jwt/GetTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/jwt/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gateway/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configurationServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configurationServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fooService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fooService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/FooServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/fooservice/FooServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/gateway/GatewayApplication.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/gateway/GatewayApplication.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wtTctZWJFahdnBdDJXZoeYHd23" />
@@ -55,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../logging/changeLogger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -78,6 +89,10 @@
       <workItem from="1629278577109" duration="8513000" />
       <workItem from="1629288037943" duration="766000" />
       <workItem from="1629352167129" duration="667000" />
+      <workItem from="1629540289083" duration="6696000" />
+      <workItem from="1629637454421" duration="2853000" />
+      <workItem from="1629687711341" duration="4560000" />
+      <workItem from="1629876748448" duration="5335000" />
     </task>
     <servers />
   </component>

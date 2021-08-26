@@ -5,24 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce36012-769f-4d4b-b394-8a40c860c7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/msaPrac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fooService-dev.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/GoogleAuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/LocalAuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/db/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/db/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/filter/LocalLoginProcessingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/handler/CustomLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/handler/CustomLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/provider/LocalAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/service/CustomUserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/AccountContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/LocalAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/jwt/CreateTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/jwt/GetTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/util/jwt/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/example/gateway/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fooService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gateway-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fooService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/api/HealthCheckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fooService/src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/FooServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/api/HealthCheckController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/fooservice/security/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/fooservice/FooServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +84,10 @@
       <updated>1629286468062</updated>
       <workItem from="1629286472616" duration="1240000" />
       <workItem from="1629287989662" duration="803000" />
+      <workItem from="1629540402429" duration="684000" />
+      <workItem from="1629638249897" duration="610000" />
+      <workItem from="1629687621293" duration="2729000" />
+      <workItem from="1629876774366" duration="3622000" />
     </task>
     <servers />
   </component>

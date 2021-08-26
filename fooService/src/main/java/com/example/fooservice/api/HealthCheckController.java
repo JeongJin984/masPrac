@@ -16,4 +16,9 @@ public class HealthCheckController {
                 ", port(server.port)=" + env.getProperty("server.port") +
                 ", token= " + env.getProperty("haha.hehe");
     }
+
+    @GetMapping("/")
+    public String hi() {
+        return "Hi";
+    }
 }
